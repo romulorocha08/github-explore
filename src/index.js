@@ -1,5 +1,5 @@
 const user = {
-  name: 'diego'
+  name: 'romulo'
 }
 
 console.log(user.address?.street)
