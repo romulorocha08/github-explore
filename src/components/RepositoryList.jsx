@@ -1,4 +1,9 @@
 import { RepositoryItem } from "./RepositoryItem";
+const repository = {
+  name:'unform',
+  description: 'forms in React',
+  link: 'http://github.com/unform/unform'
+}
 
 export function RepositoryList() {
  return(
@@ -6,10 +11,10 @@ export function RepositoryList() {
     <h1>Lista de repositorio</h1>
 
     <ul>
-      <RepositoryItem repository="unform2" description="forms in react" link="http://github.com/unform/unform"/>
-      <RepositoryItem/>
-      <RepositoryItem/>
-      <RepositoryItem/>
+      <RepositoryItem repository={repository}/>
+      <RepositoryItem repository={repository}/>
+      <RepositoryItem repository={repository}/>
+      <RepositoryItem repository={repository}/>
     </ul>
   </section>
  );
