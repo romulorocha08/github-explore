@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
                                                
-    "lib": ["dom", "dom.interable", "esnext"],                                   
+    "lib": ["dom", "dom.iterable", "esnext"],                                   
     "allowJs": true,                                                        
-    "jsx": "reaact-jsx",                                               
+    "jsx": "react-jsx",                                               
     "noEmit": true,                                                
     "strict": true,                                 
     "moduleResolution": "node",  
